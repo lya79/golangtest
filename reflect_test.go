@@ -13,7 +13,7 @@ import (
 
 	go version go1.12.4 windows/amd64
 
-	PS C:\Users\lya79_liou\go\src\lib> go test -bench="^BenchmarkReflect" -benchmem -benchtime="5s"
+	PS C:\Users\lya79_liou\go\src\golangtest> go test -bench="^BenchmarkReflect" -benchmem -benchtime="5s"
 	BenchmarkReflect-8      10000000               686 ns/op             272 B/op          7 allocs/op
 	BenchmarkReflect2-8     10000000000              0.25 ns/op            0 B/op          0 allocs/op
 */

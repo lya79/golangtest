@@ -10,7 +10,7 @@ import "testing"
 
 	go version go1.12.4 windows/amd64
 
-	PS C:\Users\lya79_liou\go\src\lib> go test -bench="^BenchmarkStruct" -benchmem -benchtime="5s"
+	PS C:\Users\lya79_liou\go\src\golangtest> go test -bench="^BenchmarkStruct" -benchmem -benchtime="5s"
 	BenchmarkStruct-8       10000000000              0.50 ns/op            0 B/op          0 allocs/op
 	BenchmarkStruct2-8      10000000000              0.25 ns/op            0 B/op          0 allocs/op
 */

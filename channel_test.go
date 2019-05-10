@@ -13,7 +13,7 @@ import (
 
 	go version go1.12.4 windows/amd64
 
-	PS C:\Users\lya79_liou\go\src\lib> go test -bench="^BenchmarkChannel" -benchmem -benchtime="5s"
+	PS C:\Users\lya79_liou\go\src\golangtest> go test -bench="^BenchmarkChannel" -benchmem -benchtime="5s"
 	BenchmarkChannel-8        500000             16123 ns/op               0 B/op          0 allocs/op
 	BenchmarkChannel2-8       300000             21404 ns/op               3 B/op          0 allocs/op
 	BenchmarkChannel3-8       500000             18837 ns/op             461 B/op          1 allocs/op
